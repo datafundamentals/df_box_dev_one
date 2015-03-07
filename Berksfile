@@ -1,7 +1,6 @@
-source "https://supermarket.getchef.com"
+source "https://supermarket.chef.io"
 
 metadata
 
- # cookbook 'docker'
-cookbook_path ~/chef-repo/cookbooks
-cookbook 'df_java'
+
+cookbook 'df_java', path: '~/chef-repo/cookbooks/df_java'
